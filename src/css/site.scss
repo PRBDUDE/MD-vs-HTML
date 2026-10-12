@@ -36,8 +36,9 @@ h1 {
 }
 
 h2 {
+    color: #ffffff;
     border-bottom: 3px solid var(--color-header-background);
-    padding: 5px;
+    padding: 5px 20px;
     background-image: linear-gradient(to right, var(--color-header-background), var(--color-body-background));
 }
 

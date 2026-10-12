@@ -2,15 +2,15 @@
   h1 {
     text-align: center;
     color: #ffffff;
-    background-color: #00b2ff;
     padding: 10px;
+    background-color: #00b2ff;
     background-image: linear-gradient(to right, #00b2ff, #000000);
     border-top: 6px solid #00b2ff;
   }
 
   h2 {
     border-bottom: 3px solid #00b2ff;
-    padding: 5px;
+    padding: 5px 20px;
     background-image: linear-gradient(to right, #00b2ff, #000000);
   }
 
@@ -86,10 +86,14 @@
 
 ## Background
 
-lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
+adipiscing nec, ultricies sed, dolor.
+lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
+adipiscing nec, ultricies sed, dolor.
+lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
+adipiscing nec, ultricies sed, dolor.
+lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet,
+adipiscing nec, ultricies sed, dolor.
 
 ## Text Formatting
 
@@ -101,6 +105,7 @@ To format text, use the following syntax:
 <del>Strikethrough Text</del>
 <ins>Underlined Text</ins>
 ```
+
 **Bold Text**
 
 *Italic Text*
@@ -118,10 +123,10 @@ To create lists, use the following syntax:
 - Item 2
 - Item 3
 ```
+
 - Item 1
 - Item 2
 - Item 3
-
 
 ## Tables
 
@@ -133,6 +138,7 @@ To create tables, use the following syntax:
 | Row 1,1  | Row 1,2  | Row 1,3  |
 | Row 2,1  | Row 2,2  | Row 2,3  |
 ```
+
 | Column 1 | Column 2 | Column 3 |
 |----------|----------|----------|
 | Row 1,1  | Row 1,2  | Row 1,3  |
@@ -156,13 +162,13 @@ To create blockquotes, use the following syntax:
 ```
 
 > This is a blockquote.
-> 
+>
 > It can span multiple lines.
-> 
+>
 > It can also contain **bold**, *italic*, <del>strikethrough</del> and <ins>underlined</ins> text.
-> 
+>
 > It can also contain code blocks:
-> 
+>
 > ```python
 > print("Hello, World!")
 > ```
